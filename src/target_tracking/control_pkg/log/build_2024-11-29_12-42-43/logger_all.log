@@ -1,0 +1,94 @@
+[0.160s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.161s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7be040d3c7c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7be040e453f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7be040e453f0>>)
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.410s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.430s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'control_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.462s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/etdisc/ros2_ws/install
+[0.464s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/etdisc/depots/colcon_ws/install
+[0.466s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/humble
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.538s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'control_pkg' is in: /home/etdisc/ros2_ws/install/control_pkg
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding control_pkg
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_target' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.539s] DEBUG:colcon.colcon_core.verb:Building package 'control_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/target_tracking/control_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.540s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.541s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg' with build type 'ament_cmake'
+[0.541s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg'
+[0.545s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg -- -j8 -l8
+[7.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg -- -j8 -l8
+[8.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_pkg)
+[8.038s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg' for CMake module files
+[8.039s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg' for CMake config files
+[8.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_pkg', 'cmake_prefix_path')
+[8.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.ps1'
+[8.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.dsv'
+[8.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.sh'
+[8.044s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/lib'
+[8.044s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/bin'
+[8.044s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/lib/pkgconfig/control_pkg.pc'
+[8.045s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/lib/python3.10/site-packages'
+[8.045s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/bin'
+[8.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.ps1'
+[8.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.dsv'
+[8.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.sh'
+[8.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.bash'
+[8.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.zsh'
+[8.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/colcon-core/packages/control_pkg)
+[8.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[8.062s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.071s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.071s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.072s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.093s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.093s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/local_setup.ps1'
+[8.095s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/_local_setup_util_ps1.py'
+[8.097s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/setup.ps1'
+[8.099s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/local_setup.sh'
+[8.100s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/_local_setup_util_sh.py'
+[8.102s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/setup.sh'
+[8.105s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/local_setup.bash'
+[8.106s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/setup.bash'
+[8.108s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/local_setup.zsh'
+[8.109s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/setup.zsh'

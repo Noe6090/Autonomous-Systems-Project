@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg -- -j8 -l8
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target control_node[0m
+[0.140s] [ 50%] [32mBuilding CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o[0m
+[14.261s] [100%] [32m[1mLinking CXX executable control_node[0m
+[14.922s] [100%] Built target control_node
+[14.944s] Invoked command in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg -- -j8 -l8
+[15.023s] Invoking command in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg
+[15.037s] -- Install configuration: ""
+[15.038s] -- Installing: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/lib/control_pkg/control_node
+[15.046s] -- Set runtime path of "/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/lib/control_pkg/control_node" to ""
+[15.047s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg
+[15.047s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg
+[15.047s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/ament_prefix_path.sh
+[15.048s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/ament_prefix_path.dsv
+[15.048s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/path.sh
+[15.048s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/path.dsv
+[15.048s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.bash
+[15.048s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.sh
+[15.049s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.zsh
+[15.049s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.dsv
+[15.050s] -- Installing: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.dsv
+[15.050s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/ament_index/resource_index/packages/control_pkg
+[15.050s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/cmake/control_pkgConfig.cmake
+[15.051s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/cmake/control_pkgConfig-version.cmake
+[15.051s] -- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.xml
+[15.054s] Invoked command in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg

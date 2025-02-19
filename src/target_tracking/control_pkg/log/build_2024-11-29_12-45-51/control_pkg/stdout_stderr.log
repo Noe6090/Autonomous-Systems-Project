@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target control_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o[0m
+[01m[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:[m[K In member function ‘[01m[Kvoid ControlNode::detection_callback(const Point&)[m[K’:
+[01m[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:28:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%c[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kconst Point[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   28 |       printf("[01;35m[K%c[m[K",[32m[Kpoint[m[K);
+      |               [01;35m[K~^[m[K  [32m[K~~~~~[m[K
+      |                [01;35m[K|[m[K  [32m[K|[m[K
+      |                [01;35m[K|[m[K  [32m[Kconst Point {aka const geometry_msgs::msg::Point_<std::allocator<void> >}[m[K
+      |                [01;35m[Kint[m[K
+[100%] [32m[1mLinking CXX executable control_node[0m
+[100%] Built target control_node
+-- Install configuration: ""
+-- Installing: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/lib/control_pkg/control_node
+-- Set runtime path of "/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/lib/control_pkg/control_node" to ""
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/path.sh
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/path.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.bash
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.sh
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.zsh
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.dsv
+-- Installing: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/ament_index/resource_index/packages/control_pkg
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/cmake/control_pkgConfig.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/cmake/control_pkgConfig-version.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.xml

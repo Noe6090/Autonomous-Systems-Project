@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000459] (control_pkg) JobQueued: {'identifier': 'control_pkg', 'dependencies': OrderedDict()}
+[0.000582] (control_pkg) JobStarted: {'identifier': 'control_pkg'}
+[0.014557] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'cmake'}
+[0.015882] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'build'}
+[0.017698] (control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg', '--', '-j8', '-l8'], 'cwd': '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('USER', 'etdisc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/etdisc'), ('OLDPWD', '/home/etdisc/ros2_ws/src/target_tracking'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '8229'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://proxy:3128'), ('COLCON_PREFIX_PATH', '/home/etdisc/ros2_ws/install:/home/etdisc/depots/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etdisc'), ('http_proxy', 'http://proxy:3128'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etdisc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/etdisc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/etdisc/depots/tina-3.7.5/bin'), ('SESSION_MANAGER', 'local/etdisc-virtual-machine:@/tmp/.ICE-unix/1656,unix/etdisc-virtual-machine:/tmp/.ICE-unix/1656'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f167c8c_d5a9_4c75_a68f_77ce39591ddb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FNUMX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg'), ('LC_ALL', 'fr_FR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/etdisc/depots/colcon_ws/install/topic_tools/local/lib/python3.10/dist-packages:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble')]), 'shell': False}
+[0.098838] (-) TimerEvent: {}
+[0.105420] (control_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_node\x1b[0m\n'}
+[0.145330] (control_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o\x1b[0m\n'}
+[0.198988] (-) TimerEvent: {}
+[0.299701] (-) TimerEvent: {}
+[0.400401] (-) TimerEvent: {}
+[0.501076] (-) TimerEvent: {}
+[0.601841] (-) TimerEvent: {}
+[0.702449] (-) TimerEvent: {}
+[0.803177] (-) TimerEvent: {}
+[0.903812] (-) TimerEvent: {}
+[1.004527] (-) TimerEvent: {}
+[1.105226] (-) TimerEvent: {}
+[1.205718] (-) TimerEvent: {}
+[1.306182] (-) TimerEvent: {}
+[1.406778] (-) TimerEvent: {}
+[1.507451] (-) TimerEvent: {}
+[1.608161] (-) TimerEvent: {}
+[1.708834] (-) TimerEvent: {}
+[1.809556] (-) TimerEvent: {}
+[1.910227] (-) TimerEvent: {}
+[2.010677] (-) TimerEvent: {}
+[2.111598] (-) TimerEvent: {}
+[2.212305] (-) TimerEvent: {}
+[2.313017] (-) TimerEvent: {}
+[2.413704] (-) TimerEvent: {}
+[2.514384] (-) TimerEvent: {}
+[2.615061] (-) TimerEvent: {}
+[2.715738] (-) TimerEvent: {}
+[2.816439] (-) TimerEvent: {}
+[2.917129] (-) TimerEvent: {}
+[3.017844] (-) TimerEvent: {}
+[3.118498] (-) TimerEvent: {}
+[3.219164] (-) TimerEvent: {}
+[3.319873] (-) TimerEvent: {}
+[3.420579] (-) TimerEvent: {}
+[3.521225] (-) TimerEvent: {}
+[3.621751] (-) TimerEvent: {}
+[3.722150] (-) TimerEvent: {}
+[3.822831] (-) TimerEvent: {}
+[3.923463] (-) TimerEvent: {}
+[4.024152] (-) TimerEvent: {}
+[4.124825] (-) TimerEvent: {}
+[4.225540] (-) TimerEvent: {}
+[4.326244] (-) TimerEvent: {}
+[4.426918] (-) TimerEvent: {}
+[4.527528] (-) TimerEvent: {}
+[4.628146] (-) TimerEvent: {}
+[4.728765] (-) TimerEvent: {}
+[4.829234] (-) TimerEvent: {}
+[4.929879] (-) TimerEvent: {}
+[5.030548] (-) TimerEvent: {}
+[5.131330] (-) TimerEvent: {}
+[5.231946] (-) TimerEvent: {}
+[5.332617] (-) TimerEvent: {}
+[5.433282] (-) TimerEvent: {}
+[5.534035] (-) TimerEvent: {}
+[5.634694] (-) TimerEvent: {}
+[5.735360] (-) TimerEvent: {}
+[5.836070] (-) TimerEvent: {}
+[5.936745] (-) TimerEvent: {}
+[6.037451] (-) TimerEvent: {}
+[6.138153] (-) TimerEvent: {}
+[6.238816] (-) TimerEvent: {}
+[6.339356] (-) TimerEvent: {}
+[6.440195] (-) TimerEvent: {}
+[6.540987] (-) TimerEvent: {}
+[6.642085] (-) TimerEvent: {}
+[6.742727] (-) TimerEvent: {}
+[6.843424] (-) TimerEvent: {}
+[6.944204] (-) TimerEvent: {}
+[7.044807] (-) TimerEvent: {}
+[7.145540] (-) TimerEvent: {}
+[7.246214] (-) TimerEvent: {}
+[7.346733] (-) TimerEvent: {}
+[7.447560] (-) TimerEvent: {}
+[7.548289] (-) TimerEvent: {}
+[7.648782] (-) TimerEvent: {}
+[7.749576] (-) TimerEvent: {}
+[7.850330] (-) TimerEvent: {}
+[7.951074] (-) TimerEvent: {}
+[8.051879] (-) TimerEvent: {}
+[8.152360] (-) TimerEvent: {}
+[8.253065] (-) TimerEvent: {}
+[8.353792] (-) TimerEvent: {}
+[8.454515] (-) TimerEvent: {}
+[8.555126] (-) TimerEvent: {}
+[8.655875] (-) TimerEvent: {}
+[8.756581] (-) TimerEvent: {}
+[8.857182] (-) TimerEvent: {}
+[8.957950] (-) TimerEvent: {}
+[9.058536] (-) TimerEvent: {}
+[9.159288] (-) TimerEvent: {}
+[9.259960] (-) TimerEvent: {}
+[9.360600] (-) TimerEvent: {}
+[9.461294] (-) TimerEvent: {}
+[9.562030] (-) TimerEvent: {}
+[9.662733] (-) TimerEvent: {}
+[9.763400] (-) TimerEvent: {}
+[9.864059] (-) TimerEvent: {}
+[9.964798] (-) TimerEvent: {}
+[10.065214] (-) TimerEvent: {}
+[10.166157] (-) TimerEvent: {}
+[10.266815] (-) TimerEvent: {}
+[10.367536] (-) TimerEvent: {}
+[10.468214] (-) TimerEvent: {}
+[10.568895] (-) TimerEvent: {}
+[10.669607] (-) TimerEvent: {}
+[10.770292] (-) TimerEvent: {}
+[10.871009] (-) TimerEvent: {}
+[10.971673] (-) TimerEvent: {}
+[11.072393] (-) TimerEvent: {}
+[11.173068] (-) TimerEvent: {}
+[11.273717] (-) TimerEvent: {}
+[11.374439] (-) TimerEvent: {}
+[11.475090] (-) TimerEvent: {}
+[11.575772] (-) TimerEvent: {}
+[11.676499] (-) TimerEvent: {}
+[11.776926] (-) TimerEvent: {}
+[11.877329] (-) TimerEvent: {}
+[11.978049] (-) TimerEvent: {}
+[12.078709] (-) TimerEvent: {}
+[12.179276] (-) TimerEvent: {}
+[12.280074] (-) TimerEvent: {}
+[12.380808] (-) TimerEvent: {}
+[12.481493] (-) TimerEvent: {}
+[12.582177] (-) TimerEvent: {}
+[12.682830] (-) TimerEvent: {}
+[12.768357] (control_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable control_node\x1b[0m\n'}
+[12.783048] (-) TimerEvent: {}
+[12.883726] (-) TimerEvent: {}
+[12.984413] (-) TimerEvent: {}
+[13.085089] (-) TimerEvent: {}
+[13.186238] (-) TimerEvent: {}
+[13.286945] (-) TimerEvent: {}
+[13.387641] (-) TimerEvent: {}
+[13.448744] (control_pkg) StdoutLine: {'line': b'[100%] Built target control_node\n'}
+[13.467995] (control_pkg) CommandEnded: {'returncode': 0}
+[13.487839] (-) TimerEvent: {}
+[13.524071] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'install'}
+[13.544679] (control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg'], 'cwd': '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('USER', 'etdisc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/etdisc'), ('OLDPWD', '/home/etdisc/ros2_ws/src/target_tracking'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '8229'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://proxy:3128'), ('COLCON_PREFIX_PATH', '/home/etdisc/ros2_ws/install:/home/etdisc/depots/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etdisc'), ('http_proxy', 'http://proxy:3128'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etdisc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/etdisc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/etdisc/depots/tina-3.7.5/bin'), ('SESSION_MANAGER', 'local/etdisc-virtual-machine:@/tmp/.ICE-unix/1656,unix/etdisc-virtual-machine:/tmp/.ICE-unix/1656'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f167c8c_d5a9_4c75_a68f_77ce39591ddb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FNUMX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg'), ('LC_ALL', 'fr_FR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/etdisc/depots/colcon_ws/install/topic_tools/local/lib/python3.10/dist-packages:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble')]), 'shell': False}
+[13.559223] (control_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.559771] (control_pkg) StdoutLine: {'line': b'-- Installing: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/lib/control_pkg/control_node\n'}
+[13.567455] (control_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/lib/control_pkg/control_node" to ""\n'}
+[13.567829] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg\n'}
+[13.568362] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg\n'}
+[13.568719] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/ament_prefix_path.sh\n'}
+[13.568975] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/ament_prefix_path.dsv\n'}
+[13.569296] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/path.sh\n'}
+[13.569387] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/environment/path.dsv\n'}
+[13.569493] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.bash\n'}
+[13.569582] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.sh\n'}
+[13.569702] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.zsh\n'}
+[13.569770] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/local_setup.dsv\n'}
+[13.569833] (control_pkg) StdoutLine: {'line': b'-- Installing: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.dsv\n'}
+[13.569894] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/ament_index/resource_index/packages/control_pkg\n'}
+[13.569957] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/cmake/control_pkgConfig.cmake\n'}
+[13.570028] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/cmake/control_pkgConfig-version.cmake\n'}
+[13.570164] (control_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/etdisc/ros2_ws/src/target_tracking/control_pkg/install/control_pkg/share/control_pkg/package.xml\n'}
+[13.572306] (control_pkg) CommandEnded: {'returncode': 0}
+[13.588682] (-) TimerEvent: {}
+[13.654105] (control_pkg) JobEnded: {'identifier': 'control_pkg', 'rc': 0}
+[13.656098] (-) EventReactorShutdown: {}

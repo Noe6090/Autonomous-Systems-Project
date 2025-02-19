@@ -1,0 +1,7 @@
+[01m[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:[m[K In member function ‘[01m[Kvoid ControlNode::detection_callback(const Point&)[m[K’:
+[01m[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:28:14:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’})
+   28 |       printf([01;31m[K*(point).x[m[K);
+      |              [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/control_node.dir/build.make:76 : CMakeFiles/control_node.dir/src/control_node.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/control_node.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

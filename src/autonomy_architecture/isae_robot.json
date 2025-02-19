@@ -1,0 +1,24 @@
+{
+    "type": [
+        {
+            "name": "Pose",
+            "package": "geometry_msgs",
+            "message": "Pose2D"
+        },
+        {
+            "name": "Float",
+            "package": "std_msgs",
+            "message": "Float64"
+        },
+        {
+            "name": "Color",
+            "package": "std_msgs",
+            "message": "String"
+        },
+        {
+            "name": "PointDetect",
+            "package": "geometry_msgs",
+            "message": "Point"
+        }
+    ]
+}

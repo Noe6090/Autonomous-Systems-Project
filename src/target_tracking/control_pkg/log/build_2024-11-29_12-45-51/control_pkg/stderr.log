@@ -1,0 +1,7 @@
+[01m[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:[m[K In member function ‘[01m[Kvoid ControlNode::detection_callback(const Point&)[m[K’:
+[01m[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:28:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%c[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kconst Point[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   28 |       printf("[01;35m[K%c[m[K",[32m[Kpoint[m[K);
+      |               [01;35m[K~^[m[K  [32m[K~~~~~[m[K
+      |                [01;35m[K|[m[K  [32m[K|[m[K
+      |                [01;35m[K|[m[K  [32m[Kconst Point {aka const geometry_msgs::msg::Point_<std::allocator<void> >}[m[K
+      |                [01;35m[Kint[m[K

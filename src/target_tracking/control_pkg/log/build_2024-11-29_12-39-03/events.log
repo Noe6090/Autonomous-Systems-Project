@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000377] (control_pkg) JobQueued: {'identifier': 'control_pkg', 'dependencies': OrderedDict()}
+[0.000501] (control_pkg) JobStarted: {'identifier': 'control_pkg'}
+[0.013536] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'cmake'}
+[0.016635] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'build'}
+[0.016746] (control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg', '--', '-j8', '-l8'], 'cwd': '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('USER', 'etdisc'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/etdisc'), ('OLDPWD', '/home/etdisc/ros2_ws/src/target_tracking'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '8229'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://proxy:3128'), ('COLCON_PREFIX_PATH', '/home/etdisc/ros2_ws/install:/home/etdisc/depots/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'etdisc'), ('http_proxy', 'http://proxy:3128'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'etdisc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/etdisc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/etdisc/depots/tina-3.7.5/bin'), ('SESSION_MANAGER', 'local/etdisc-virtual-machine:@/tmp/.ICE-unix/1656,unix/etdisc-virtual-machine:/tmp/.ICE-unix/1656'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f167c8c_d5a9_4c75_a68f_77ce39591ddb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FNUMX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/etdisc/ros2_ws/src/target_tracking/control_pkg/build/control_pkg'), ('LC_ALL', 'fr_FR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/etdisc/depots/colcon_ws/install/topic_tools/local/lib/python3.10/dist-packages:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble')]), 'shell': False}
+[0.098235] (-) TimerEvent: {}
+[0.107475] (control_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_node\x1b[0m\n'}
+[0.143880] (control_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o\x1b[0m\n'}
+[0.198718] (-) TimerEvent: {}
+[0.299342] (-) TimerEvent: {}
+[0.400072] (-) TimerEvent: {}
+[0.500775] (-) TimerEvent: {}
+[0.601397] (-) TimerEvent: {}
+[0.702210] (-) TimerEvent: {}
+[0.802905] (-) TimerEvent: {}
+[0.903543] (-) TimerEvent: {}
+[1.004257] (-) TimerEvent: {}
+[1.104916] (-) TimerEvent: {}
+[1.205310] (-) TimerEvent: {}
+[1.305731] (-) TimerEvent: {}
+[1.406440] (-) TimerEvent: {}
+[1.506961] (-) TimerEvent: {}
+[1.607658] (-) TimerEvent: {}
+[1.708082] (-) TimerEvent: {}
+[1.808701] (-) TimerEvent: {}
+[1.909115] (-) TimerEvent: {}
+[2.009460] (-) TimerEvent: {}
+[2.110308] (-) TimerEvent: {}
+[2.211030] (-) TimerEvent: {}
+[2.311655] (-) TimerEvent: {}
+[2.412389] (-) TimerEvent: {}
+[2.512900] (-) TimerEvent: {}
+[2.613741] (-) TimerEvent: {}
+[2.714202] (-) TimerEvent: {}
+[2.815111] (-) TimerEvent: {}
+[2.915777] (-) TimerEvent: {}
+[3.016474] (-) TimerEvent: {}
+[3.116960] (-) TimerEvent: {}
+[3.217381] (-) TimerEvent: {}
+[3.317698] (-) TimerEvent: {}
+[3.418250] (-) TimerEvent: {}
+[3.518650] (-) TimerEvent: {}
+[3.619106] (-) TimerEvent: {}
+[3.719829] (-) TimerEvent: {}
+[3.743857] (control_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ControlNode::detection_callback(const Point&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.744163] (control_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:28:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst _x_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst double\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.744276] (control_pkg) StderrLine: {'line': b'   28 |       printf(\x1b[01;31m\x1b[Kpoint.x\x1b[m\x1b[K);\n'}
+[3.744366] (control_pkg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[3.744454] (control_pkg) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.744681] (control_pkg) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[Kconst _x_type {aka const double}\x1b[m\x1b[K\n'}
+[3.744779] (control_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cstdio:42\x1b[m\x1b[K,\n'}
+[3.744883] (control_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ext/string_conversions.h:43\x1b[m\x1b[K,\n'}
+[3.744971] (control_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6608\x1b[m\x1b[K,\n'}
+[3.745094] (control_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.745180] (control_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[3.745301] (control_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[3.745406] (control_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[3.745532] (control_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[3.745670] (control_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[3.745756] (control_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.745841] (control_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:4\x1b[m\x1b[K:\n'}
+[3.745927] (control_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdio.h:356:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kint printf(const char*, ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.750056] (control_pkg) StderrLine: {'line': b'  356 | extern int printf (\x1b[01;36m\x1b[Kconst char *__restrict __format\x1b[m\x1b[K, ...);\n'}
+[3.750173] (control_pkg) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.820008] (-) TimerEvent: {}
+[3.920528] (-) TimerEvent: {}
+[4.021038] (-) TimerEvent: {}
+[4.121541] (-) TimerEvent: {}
+[4.221990] (-) TimerEvent: {}
+[4.322421] (-) TimerEvent: {}
+[4.422868] (-) TimerEvent: {}
+[4.523355] (-) TimerEvent: {}
+[4.624020] (-) TimerEvent: {}
+[4.724756] (-) TimerEvent: {}
+[4.825376] (-) TimerEvent: {}
+[4.926087] (-) TimerEvent: {}
+[5.026543] (-) TimerEvent: {}
+[5.127468] (-) TimerEvent: {}
+[5.228134] (-) TimerEvent: {}
+[5.328788] (-) TimerEvent: {}
+[5.429193] (-) TimerEvent: {}
+[5.529730] (-) TimerEvent: {}
+[5.630403] (-) TimerEvent: {}
+[5.731100] (-) TimerEvent: {}
+[5.831701] (-) TimerEvent: {}
+[5.932259] (-) TimerEvent: {}
+[6.032934] (-) TimerEvent: {}
+[6.133838] (-) TimerEvent: {}
+[6.234509] (-) TimerEvent: {}
+[6.334947] (-) TimerEvent: {}
+[6.435369] (-) TimerEvent: {}
+[6.535849] (-) TimerEvent: {}
+[6.636293] (-) TimerEvent: {}
+[6.736977] (-) TimerEvent: {}
+[6.837644] (-) TimerEvent: {}
+[6.938142] (-) TimerEvent: {}
+[7.038759] (-) TimerEvent: {}
+[7.139197] (-) TimerEvent: {}
+[7.239915] (-) TimerEvent: {}
+[7.340336] (-) TimerEvent: {}
+[7.369580] (control_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/control_node.dir/build.make:76 : CMakeFiles/control_node.dir/src/control_node.cpp.o] Erreur 1\n'}
+[7.370174] (control_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/control_node.dir/all] Erreur 2\n'}
+[7.370432] (control_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146 : all] Erreur 2\n'}
+[7.372817] (control_pkg) CommandEnded: {'returncode': 2}
+[7.442490] (-) TimerEvent: {}
+[7.447675] (control_pkg) JobEnded: {'identifier': 'control_pkg', 'rc': 2}
+[7.458707] (-) EventReactorShutdown: {}

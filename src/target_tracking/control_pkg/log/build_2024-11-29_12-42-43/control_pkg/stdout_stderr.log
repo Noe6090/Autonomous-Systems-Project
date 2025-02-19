@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target control_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o[0m
+[01m[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:[m[K In member function ‘[01m[Kvoid ControlNode::detection_callback(const Point&)[m[K’:
+[01m[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:28:15:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst Point[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} to ‘[01m[Kconst char*[m[K’
+   28 |       printf([01;31m[K(point)[m[K);
+      |              [01;31m[K~^~~~~~[m[K
+      |               [01;31m[K|[m[K
+      |               [01;31m[Kconst Point {aka const geometry_msgs::msg::Point_<std::allocator<void> >}[m[K
+In file included from [01m[K/usr/include/c++/11/cstdio:42[m[K,
+                 from [01m[K/usr/include/c++/11/ext/string_conversions.h:43[m[K,
+                 from [01m[K/usr/include/c++/11/bits/basic_string.h:6608[m[K,
+                 from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/etdisc/ros2_ws/src/target_tracking/control_pkg/src/control_node.cpp:4[m[K:
+[01m[K/usr/include/stdio.h:356:43:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint printf(const char*, ...)[m[K’
+  356 | extern int printf ([01;36m[Kconst char *__restrict __format[m[K, ...);
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/control_node.dir/build.make:76 : CMakeFiles/control_node.dir/src/control_node.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/control_node.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2
