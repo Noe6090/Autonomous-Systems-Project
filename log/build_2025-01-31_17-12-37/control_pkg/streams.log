@@ -1,0 +1,22 @@
+[0.042s] Invoking command in '/home/etdisc/ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/control_pkg -- -j4 -l4
+[0.259s] [100%] Built target control_node
+[0.358s] Invoked command in '/home/etdisc/ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/control_pkg -- -j4 -l4
+[0.521s] Invoking command in '/home/etdisc/ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/control_pkg
+[0.542s] -- Install configuration: ""
+[0.543s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/lib/control_pkg/control_node
+[0.543s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg
+[0.545s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg
+[0.545s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/environment/ament_prefix_path.sh
+[0.546s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/environment/ament_prefix_path.dsv
+[0.547s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/environment/path.sh
+[0.548s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/environment/path.dsv
+[0.548s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/local_setup.bash
+[0.548s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/local_setup.sh
+[0.559s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/local_setup.zsh
+[0.559s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/local_setup.dsv
+[0.559s] -- Installing: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.dsv
+[0.559s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/ament_index/resource_index/packages/control_pkg
+[0.559s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/cmake/control_pkgConfig.cmake
+[0.560s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/cmake/control_pkgConfig-version.cmake
+[0.560s] -- Up-to-date: /home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.xml
+[0.560s] Invoked command in '/home/etdisc/ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/control_pkg

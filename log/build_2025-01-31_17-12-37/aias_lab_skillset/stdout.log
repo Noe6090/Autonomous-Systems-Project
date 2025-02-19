@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target aias_lab_skillset[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/aias_lab_skillset.dir/src/Node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libaias_lab_skillset.a[0m
+[ 50%] Built target aias_lab_skillset
+[ 75%] [32m[1mLinking CXX executable aias_lab_skillset_node[0m
+[100%] Built target aias_lab_skillset_node
+-- Install configuration: ""
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/include
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/include/Node.hpp
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/include/AiasLabSkillsetNode.hpp
+-- Installing: /home/etdisc/ros2_ws/install/aias_lab_skillset/lib/libaias_lab_skillset.a
+-- Installing: /home/etdisc/ros2_ws/install/aias_lab_skillset/lib/aias_lab_skillset/aias_lab_skillset_node
+-- Set runtime path of "/home/etdisc/ros2_ws/install/aias_lab_skillset/lib/aias_lab_skillset/aias_lab_skillset_node" to ""
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/ament_index/resource_index/package_run_dependencies/aias_lab_skillset
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/ament_index/resource_index/parent_prefix_path/aias_lab_skillset
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/environment/ament_prefix_path.sh
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/environment/path.sh
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/environment/path.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/local_setup.bash
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/local_setup.sh
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/local_setup.zsh
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/local_setup.dsv
+-- Installing: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/ament_index/resource_index/packages/aias_lab_skillset
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/cmake/aias_lab_skillsetExport.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/cmake/aias_lab_skillsetExport-noconfig.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/cmake/aias_lab_skillsetConfig.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/cmake/aias_lab_skillsetConfig-version.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.xml

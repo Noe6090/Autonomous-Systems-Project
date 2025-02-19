@@ -1,0 +1,756 @@
+[0.125s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.125s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7043a6a1fe80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7043a6b58af0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7043a6b58af0>>)
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.307s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/etdisc/ros2_ws'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/aias_lab_skillset) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/aias_lab_skillset) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/aias_lab_skillset) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/aias_lab_skillset) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/aias_lab_skillset) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/aias_lab_skillset) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/aias_lab_skillset) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/aias_lab_skillset) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/aias_lab_skillset) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomy_architecture/aias_lab_skillset' with type 'ros.ament_cmake' and name 'aias_lab_skillset'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/autonomy_architecture) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/autonomy_architecture) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/autonomy_architecture) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/autonomy_architecture) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/autonomy_architecture) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/autonomy_architecture) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/autonomy_architecture) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/autonomy_architecture) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/autonomy_architecture) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomy_architecture/autonomy_architecture' with type 'ros.ament_cmake' and name 'autonomy_architecture'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomy_architecture/isae_robot_skillset' with type 'ros.ament_cmake' and name 'isae_robot_skillset'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_client_py) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_client_py) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_client_py) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_client_py) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_client_py) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_client_py) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_client_py) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_client_py) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_client_py) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomy_architecture/isae_robot_skillset_client_py' with type 'ros.ament_cmake' and name 'isae_robot_skillset_client'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_gui_widgets) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_gui_widgets) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_gui_widgets) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_gui_widgets) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_gui_widgets) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_gui_widgets) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_gui_widgets) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_gui_widgets) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_gui_widgets) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomy_architecture/isae_robot_skillset_gui_widgets' with type 'ros.ament_cmake' and name 'isae_robot_skillset_gui_widgets'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_interfaces) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_interfaces) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_interfaces) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_interfaces) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_interfaces) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_interfaces) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_interfaces) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomy_architecture/isae_robot_skillset_interfaces) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomy_architecture/isae_robot_skillset_interfaces' with type 'ros.ament_cmake' and name 'isae_robot_skillset_interfaces'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/isae_simulations_package) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/isae_simulations_package) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/isae_simulations_package) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/isae_simulations_package) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/isae_simulations_package) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/isae_simulations_package) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/isae_simulations_package) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/isae_simulations_package) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/isae_simulations_package) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/isae_simulations_package' with type 'ros.ament_cmake' and name 'isae_simulations_package'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extensions ['cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/control_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/control_pkg) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/control_pkg) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/control_pkg) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/control_pkg) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/control_pkg) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/control_pkg) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/control_pkg) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/control_pkg) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/target_tracking/control_pkg' with type 'ros.ament_cmake' and name 'control_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/target_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/target_tracking) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/target_tracking) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/target_tracking) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/target_tracking) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/target_tracking) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/target_tracking) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/target_tracking) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/target_tracking) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/target_tracking/target_tracking' with type 'ros.ament_cmake' and name 'target_tracking'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/visual_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/visual_detection) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/visual_detection) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/visual_detection) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/visual_detection) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/visual_detection) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/visual_detection) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/visual_detection) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_tracking/visual_detection) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/target_tracking/visual_detection' with type 'ros.ament_cmake' and name 'visual_detection'
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.390s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/etdisc/ros2_ws/install
+[0.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/etdisc/depots/colcon_ws/install
+[0.392s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/humble
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'control_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/build/control_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/install/control_pkg', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/target_tracking/control_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'isae_robot_skillset_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/build/isae_robot_skillset_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_simulations_package' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_simulations_package' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_simulations_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_simulations_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_simulations_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_simulations_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_simulations_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_simulations_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'isae_simulations_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'isae_simulations_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/build/isae_simulations_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/install/isae_simulations_package', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/isae_simulations_package', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'visual_detection' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'visual_detection' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'visual_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'visual_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'visual_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'visual_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'visual_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'visual_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'visual_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'visual_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/build/visual_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/install/visual_detection', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/target_tracking/visual_detection', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'autonomy_architecture' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'autonomy_architecture' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'autonomy_architecture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'autonomy_architecture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'autonomy_architecture' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'autonomy_architecture' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'autonomy_architecture' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'autonomy_architecture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'autonomy_architecture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'autonomy_architecture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/build/autonomy_architecture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/install/autonomy_architecture', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/autonomy_architecture/autonomy_architecture', 'symlink_install': False, 'test_result_base': None}
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'isae_robot_skillset' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/build/isae_robot_skillset', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/install/isae_robot_skillset', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_client' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_client' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'isae_robot_skillset_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/build/isae_robot_skillset_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/install/isae_robot_skillset_client', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_client_py', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_gui_widgets' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_gui_widgets' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_gui_widgets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_gui_widgets' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_gui_widgets' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_gui_widgets' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_gui_widgets' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_gui_widgets' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'isae_robot_skillset_gui_widgets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'isae_robot_skillset_gui_widgets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/build/isae_robot_skillset_gui_widgets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_gui_widgets', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'target_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'target_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/build/target_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/install/target_tracking', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/target_tracking/target_tracking', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'aias_lab_skillset' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'aias_lab_skillset' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'aias_lab_skillset' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'aias_lab_skillset' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'aias_lab_skillset' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'aias_lab_skillset' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'aias_lab_skillset' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'aias_lab_skillset' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'aias_lab_skillset' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'aias_lab_skillset' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/ros2_ws/build/aias_lab_skillset', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/ros2_ws/install/aias_lab_skillset', 'merge_install': False, 'path': '/home/etdisc/ros2_ws/src/autonomy_architecture/aias_lab_skillset', 'symlink_install': False, 'test_result_base': None}
+[0.442s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.443s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces' with build type 'ament_cmake'
+[0.444s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces'
+[0.447s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.454s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg' with build type 'ament_cmake'
+[0.454s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/target_tracking/control_pkg'
+[0.454s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.454s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/target_tracking/visual_detection' with build type 'ament_cmake'
+[0.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/target_tracking/visual_detection'
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.470s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/isae_simulations_package' with build type 'ament_cmake'
+[0.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/isae_simulations_package'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/isae_robot_skillset_interfaces -- -j4 -l4
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/control_pkg -- -j4 -l4
+[0.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/visual_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/visual_detection -- -j4 -l4
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/isae_simulations_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/isae_simulations_package -- -j4 -l4
+[0.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/isae_simulations_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/isae_simulations_package -- -j4 -l4
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/isae_simulations_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/isae_simulations_package
+[0.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/visual_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/visual_detection -- -j4 -l4
+[0.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isae_simulations_package)
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/control_pkg -- -j4 -l4
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/isae_simulations_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/isae_simulations_package
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package' for CMake module files
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package' for CMake config files
+[0.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_simulations_package', 'cmake_prefix_path')
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/hook/cmake_prefix_path.ps1'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/hook/cmake_prefix_path.dsv'
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/hook/cmake_prefix_path.sh'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package/bin'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package/lib/pkgconfig/isae_simulations_package.pc'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package/lib/python3.10/site-packages'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package/bin'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/package.ps1'
+[0.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/package.dsv'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/package.sh'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/package.bash'
+[0.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/package.zsh'
+[0.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/isae_simulations_package/share/colcon-core/packages/isae_simulations_package)
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/visual_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/visual_detection
+[0.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visual_detection)
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection' for CMake module files
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/visual_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/visual_detection
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection' for CMake config files
+[0.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_detection', 'cmake_prefix_path')
+[0.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/hook/cmake_prefix_path.ps1'
+[0.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/hook/cmake_prefix_path.dsv'
+[0.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/hook/cmake_prefix_path.sh'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection/lib'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection/bin'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection/lib/pkgconfig/visual_detection.pc'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection/lib/python3.10/site-packages'
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection/bin'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.ps1'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.sh'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.bash'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.zsh'
+[0.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/visual_detection/share/colcon-core/packages/visual_detection)
+[0.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isae_simulations_package)
+[0.937s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package' for CMake module files
+[0.937s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package' for CMake config files
+[0.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_simulations_package', 'cmake_prefix_path')
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/hook/cmake_prefix_path.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/hook/cmake_prefix_path.dsv'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/hook/cmake_prefix_path.sh'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package/bin'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package/lib/pkgconfig/isae_simulations_package.pc'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package/lib/python3.10/site-packages'
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_simulations_package/bin'
+[0.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/package.ps1'
+[0.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/package.dsv'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/package.sh'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/package.bash'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_simulations_package/share/isae_simulations_package/package.zsh'
+[0.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/isae_simulations_package/share/colcon-core/packages/isae_simulations_package)
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/control_pkg
+[0.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_pkg)
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg' for CMake module files
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg' for CMake config files
+[0.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_pkg', 'cmake_prefix_path')
+[0.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.ps1'
+[0.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.dsv'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.sh'
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/control_pkg
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg/lib'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg/bin'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg/lib/pkgconfig/control_pkg.pc'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg/lib/python3.10/site-packages'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg/bin'
+[1.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.ps1'
+[1.019s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.dsv'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.sh'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.bash'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.zsh'
+[1.026s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/control_pkg/share/colcon-core/packages/control_pkg)
+[1.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visual_detection)
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection' for CMake module files
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection' for CMake config files
+[1.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_detection', 'cmake_prefix_path')
+[1.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/hook/cmake_prefix_path.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/hook/cmake_prefix_path.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/hook/cmake_prefix_path.sh'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection/lib'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection/bin'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection/lib/pkgconfig/visual_detection.pc'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection/lib/python3.10/site-packages'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/visual_detection/bin'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.ps1'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.sh'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.bash'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.zsh'
+[1.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/visual_detection/share/colcon-core/packages/visual_detection)
+[1.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_pkg)
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg' for CMake module files
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg' for CMake config files
+[1.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_pkg', 'cmake_prefix_path')
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.sh'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg/lib'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg/bin'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg/lib/pkgconfig/control_pkg.pc'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg/lib/python3.10/site-packages'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/control_pkg/bin'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.sh'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.bash'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/control_pkg/share/control_pkg/package.zsh'
+[1.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/control_pkg/share/colcon-core/packages/control_pkg)
+[1.144s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/autonomy_architecture/autonomy_architecture' with build type 'ament_cmake'
+[1.144s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/autonomy_architecture/autonomy_architecture'
+[1.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.162s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/target_tracking/target_tracking' with build type 'ament_cmake'
+[1.162s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/target_tracking/target_tracking'
+[1.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/autonomy_architecture': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/autonomy_architecture -- -j4 -l4
+[1.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/target_tracking': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/target_tracking -- -j4 -l4
+[1.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/target_tracking' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/target_tracking -- -j4 -l4
+[1.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/autonomy_architecture' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/autonomy_architecture -- -j4 -l4
+[1.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/target_tracking': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/target_tracking
+[1.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(target_tracking)
+[1.446s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking' for CMake module files
+[1.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/target_tracking' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/target_tracking
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking' for CMake config files
+[1.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_tracking', 'cmake_prefix_path')
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/hook/cmake_prefix_path.ps1'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/hook/cmake_prefix_path.dsv'
+[1.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/hook/cmake_prefix_path.sh'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking/bin'
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking/lib/pkgconfig/target_tracking.pc'
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking/lib/python3.10/site-packages'
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking/bin'
+[1.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/package.ps1'
+[1.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/package.dsv'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/package.sh'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/package.bash'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/package.zsh'
+[1.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/target_tracking/share/colcon-core/packages/target_tracking)
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/autonomy_architecture': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/autonomy_architecture
+[1.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomy_architecture)
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture' for CMake module files
+[1.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/autonomy_architecture' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/autonomy_architecture
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture' for CMake config files
+[1.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomy_architecture', 'cmake_prefix_path')
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/hook/cmake_prefix_path.ps1'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/hook/cmake_prefix_path.dsv'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/hook/cmake_prefix_path.sh'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture/lib'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture/bin'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture/lib/pkgconfig/autonomy_architecture.pc'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture/lib/python3.10/site-packages'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture/bin'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.ps1'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.sh'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.bash'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.zsh'
+[1.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/autonomy_architecture/share/colcon-core/packages/autonomy_architecture)
+[1.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(target_tracking)
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking' for CMake module files
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking' for CMake config files
+[1.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_tracking', 'cmake_prefix_path')
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/hook/cmake_prefix_path.ps1'
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/hook/cmake_prefix_path.dsv'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/hook/cmake_prefix_path.sh'
+[1.558s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking/bin'
+[1.558s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking/lib/pkgconfig/target_tracking.pc'
+[1.559s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking/lib/python3.10/site-packages'
+[1.559s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/target_tracking/bin'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/package.ps1'
+[1.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/package.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/package.sh'
+[1.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/package.bash'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/target_tracking/share/target_tracking/package.zsh'
+[1.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/target_tracking/share/colcon-core/packages/target_tracking)
+[1.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomy_architecture)
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture' for CMake module files
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture' for CMake config files
+[1.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomy_architecture', 'cmake_prefix_path')
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/hook/cmake_prefix_path.ps1'
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/hook/cmake_prefix_path.dsv'
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/hook/cmake_prefix_path.sh'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture/lib'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture/bin'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture/lib/pkgconfig/autonomy_architecture.pc'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture/lib/python3.10/site-packages'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/autonomy_architecture/bin'
+[1.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.ps1'
+[1.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.dsv'
+[1.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.sh'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.bash'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.zsh'
+[1.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/autonomy_architecture/share/colcon-core/packages/autonomy_architecture)
+[2.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/isae_robot_skillset_interfaces -- -j4 -l4
+[3.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/isae_robot_skillset_interfaces
+[3.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isae_robot_skillset_interfaces)
+[3.887s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces' for CMake module files
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces' for CMake config files
+[3.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset_interfaces', 'cmake_prefix_path')
+[3.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/cmake_prefix_path.ps1'
+[3.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/cmake_prefix_path.dsv'
+[3.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/isae_robot_skillset_interfaces
+[3.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/cmake_prefix_path.sh'
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib'
+[3.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset_interfaces', 'ld_library_path_lib')
+[3.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/ld_library_path_lib.ps1'
+[3.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/ld_library_path_lib.dsv'
+[3.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/ld_library_path_lib.sh'
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/bin'
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib/pkgconfig/isae_robot_skillset_interfaces.pc'
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib/python3.10/site-packages'
+[3.905s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/bin'
+[3.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/package.ps1'
+[3.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/package.dsv'
+[3.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/package.sh'
+[3.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/package.bash'
+[3.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/package.zsh'
+[3.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/colcon-core/packages/isae_robot_skillset_interfaces)
+[5.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isae_robot_skillset_interfaces)
+[5.342s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces' for CMake module files
+[5.344s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces' for CMake config files
+[5.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset_interfaces', 'cmake_prefix_path')
+[5.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/cmake_prefix_path.ps1'
+[5.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/cmake_prefix_path.dsv'
+[5.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/cmake_prefix_path.sh'
+[5.349s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib'
+[5.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset_interfaces', 'ld_library_path_lib')
+[5.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/ld_library_path_lib.ps1'
+[5.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/ld_library_path_lib.dsv'
+[5.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/hook/ld_library_path_lib.sh'
+[5.353s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/bin'
+[5.353s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib/pkgconfig/isae_robot_skillset_interfaces.pc'
+[5.354s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib/python3.10/site-packages'
+[5.354s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/bin'
+[5.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/package.ps1'
+[5.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/package.dsv'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/package.sh'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/package.bash'
+[5.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/isae_robot_skillset_interfaces/package.zsh'
+[5.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/share/colcon-core/packages/isae_robot_skillset_interfaces)
+[5.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset' with build type 'ament_cmake'
+[5.358s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset'
+[5.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_client_py' with build type 'ament_cmake'
+[5.365s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_client_py'
+[5.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.375s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_gui_widgets' with build type 'ament_cmake'
+[5.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_gui_widgets'
+[5.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/isae_robot_skillset': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/etdisc/ros2_ws/build/isae_robot_skillset -- -j4 -l4
+[5.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_client': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/etdisc/ros2_ws/build/isae_robot_skillset_client -- -j4 -l4
+[5.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_gui_widgets': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/etdisc/ros2_ws/build/isae_robot_skillset_gui_widgets -- -j4 -l4
+[5.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/isae_robot_skillset' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/etdisc/ros2_ws/build/isae_robot_skillset -- -j4 -l4
+[5.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_gui_widgets' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/etdisc/ros2_ws/build/isae_robot_skillset_gui_widgets -- -j4 -l4
+[5.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_gui_widgets': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/etdisc/ros2_ws/build/isae_robot_skillset_gui_widgets
+[5.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/isae_robot_skillset': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/etdisc/ros2_ws/build/isae_robot_skillset
+[5.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isae_robot_skillset_gui_widgets)
+[5.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_gui_widgets' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/etdisc/ros2_ws/build/isae_robot_skillset_gui_widgets
+[5.796s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets' for CMake module files
+[5.797s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets' for CMake config files
+[5.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset_gui_widgets', 'cmake_prefix_path')
+[5.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/cmake_prefix_path.ps1'
+[5.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/cmake_prefix_path.dsv'
+[5.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/cmake_prefix_path.sh'
+[5.800s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib'
+[5.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset_gui_widgets', 'ld_library_path_lib')
+[5.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/ld_library_path_lib.ps1'
+[5.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/ld_library_path_lib.dsv'
+[5.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/ld_library_path_lib.sh'
+[5.803s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/bin'
+[5.804s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib/pkgconfig/isae_robot_skillset_gui_widgets.pc'
+[5.805s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib/python3.10/site-packages'
+[5.806s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/bin'
+[5.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/package.ps1'
+[5.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/package.dsv'
+[5.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/package.sh'
+[5.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/package.bash'
+[5.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/package.zsh'
+[5.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/colcon-core/packages/isae_robot_skillset_gui_widgets)
+[5.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isae_robot_skillset)
+[5.819s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset' for CMake module files
+[5.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/isae_robot_skillset' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/etdisc/ros2_ws/build/isae_robot_skillset
+[5.823s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset' for CMake config files
+[5.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset', 'cmake_prefix_path')
+[5.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/hook/cmake_prefix_path.ps1'
+[5.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/hook/cmake_prefix_path.dsv'
+[5.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/hook/cmake_prefix_path.sh'
+[5.831s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset/lib'
+[5.832s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset/bin'
+[5.832s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset/lib/pkgconfig/isae_robot_skillset.pc'
+[5.832s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset/lib/python3.10/site-packages'
+[5.832s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset/bin'
+[5.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/package.ps1'
+[5.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/package.dsv'
+[5.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/package.sh'
+[5.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/package.bash'
+[5.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/package.zsh'
+[5.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/isae_robot_skillset/share/colcon-core/packages/isae_robot_skillset)
+[5.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isae_robot_skillset_gui_widgets)
+[5.927s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets' for CMake module files
+[5.927s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets' for CMake config files
+[5.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset_gui_widgets', 'cmake_prefix_path')
+[5.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/cmake_prefix_path.ps1'
+[5.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/cmake_prefix_path.dsv'
+[5.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/cmake_prefix_path.sh'
+[5.936s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib'
+[5.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset_gui_widgets', 'ld_library_path_lib')
+[5.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/ld_library_path_lib.ps1'
+[5.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/ld_library_path_lib.dsv'
+[5.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/hook/ld_library_path_lib.sh'
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/bin'
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib/pkgconfig/isae_robot_skillset_gui_widgets.pc'
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib/python3.10/site-packages'
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/bin'
+[5.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/package.ps1'
+[5.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/package.dsv'
+[5.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/package.sh'
+[5.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/package.bash'
+[5.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/isae_robot_skillset_gui_widgets/package.zsh'
+[5.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/share/colcon-core/packages/isae_robot_skillset_gui_widgets)
+[5.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isae_robot_skillset)
+[5.973s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset' for CMake module files
+[5.974s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset' for CMake config files
+[5.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset', 'cmake_prefix_path')
+[5.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/hook/cmake_prefix_path.ps1'
+[5.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/hook/cmake_prefix_path.dsv'
+[5.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/hook/cmake_prefix_path.sh'
+[5.978s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset/lib'
+[5.978s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset/bin'
+[5.978s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset/lib/pkgconfig/isae_robot_skillset.pc'
+[5.978s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset/lib/python3.10/site-packages'
+[5.979s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset/bin'
+[5.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/package.ps1'
+[5.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/package.dsv'
+[5.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/package.sh'
+[5.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/package.bash'
+[5.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset/share/isae_robot_skillset/package.zsh'
+[5.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/isae_robot_skillset/share/colcon-core/packages/isae_robot_skillset)
+[5.986s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/ros2_ws/src/autonomy_architecture/aias_lab_skillset' with build type 'ament_cmake'
+[5.990s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/ros2_ws/src/autonomy_architecture/aias_lab_skillset'
+[5.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/aias_lab_skillset': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/etdisc/ros2_ws/build/aias_lab_skillset -- -j4 -l4
+[6.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_client' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/etdisc/ros2_ws/build/isae_robot_skillset_client -- -j4 -l4
+[6.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_client': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/etdisc/ros2_ws/build/isae_robot_skillset_client
+[6.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isae_robot_skillset_client)
+[6.297s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client' for CMake module files
+[6.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/isae_robot_skillset_client' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/etdisc/ros2_ws/build/isae_robot_skillset_client
+[6.299s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client' for CMake config files
+[6.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset_client', 'cmake_prefix_path')
+[6.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/hook/cmake_prefix_path.ps1'
+[6.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/hook/cmake_prefix_path.dsv'
+[6.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/hook/cmake_prefix_path.sh'
+[6.303s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/bin'
+[6.303s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/lib/pkgconfig/isae_robot_skillset_client.pc'
+[6.303s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/lib/python3.10/site-packages'
+[6.304s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/bin'
+[6.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/package.ps1'
+[6.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/package.dsv'
+[6.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/package.sh'
+[6.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/package.bash'
+[6.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/package.zsh'
+[6.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/colcon-core/packages/isae_robot_skillset_client)
+[6.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isae_robot_skillset_client)
+[6.357s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client' for CMake module files
+[6.357s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client' for CMake config files
+[6.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('isae_robot_skillset_client', 'cmake_prefix_path')
+[6.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/hook/cmake_prefix_path.ps1'
+[6.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/hook/cmake_prefix_path.dsv'
+[6.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/hook/cmake_prefix_path.sh'
+[6.363s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/bin'
+[6.363s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/lib/pkgconfig/isae_robot_skillset_client.pc'
+[6.366s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/lib/python3.10/site-packages'
+[6.366s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/bin'
+[6.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/package.ps1'
+[6.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/package.dsv'
+[6.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/package.sh'
+[6.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/package.bash'
+[6.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/isae_robot_skillset_client/package.zsh'
+[6.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/isae_robot_skillset_client/share/colcon-core/packages/isae_robot_skillset_client)
+[30.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/aias_lab_skillset' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/etdisc/ros2_ws/build/aias_lab_skillset -- -j4 -l4
+[30.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/ros2_ws/build/aias_lab_skillset': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/etdisc/ros2_ws/build/aias_lab_skillset
+[30.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aias_lab_skillset)
+[30.972s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset' for CMake module files
+[30.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/ros2_ws/build/aias_lab_skillset' returned '0': CMAKE_PREFIX_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset:/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces:/home/etdisc/ros2_ws/install/target_tracking:/home/etdisc/ros2_ws/install/autonomy_architecture:/home/etdisc/ros2_ws/install/visual_detection:/home/etdisc/ros2_ws/install/isae_simulations_package:/home/etdisc/ros2_ws/install/isae_robot_skillset_client:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets:/home/etdisc/ros2_ws/install/control_pkg:/home/etdisc/ros2_ws/install/aias_lab_skillset:/home/etdisc/depots/colcon_ws/install/topic_tools:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces:/home/etdisc/depots/colcon_ws/install/move_to:/home/etdisc/depots/colcon_ws/install/gui_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/etdisc/ros2_ws/install/isae_robot_skillset_interfaces/lib:/home/etdisc/ros2_ws/install/isae_robot_skillset_gui_widgets/lib:/home/etdisc/depots/colcon_ws/install/topic_tools/lib:/home/etdisc/depots/colcon_ws/install/topic_tools_interfaces/lib:/home/etdisc/depots/colcon_ws/install/move_to/lib:/home/etdisc/depots/colcon_ws/install/gui_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/etdisc/ros2_ws/build/aias_lab_skillset
+[30.974s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset' for CMake config files
+[30.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('aias_lab_skillset', 'cmake_prefix_path')
+[30.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/hook/cmake_prefix_path.ps1'
+[30.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/hook/cmake_prefix_path.dsv'
+[30.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/hook/cmake_prefix_path.sh'
+[30.977s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset/lib'
+[30.977s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset/bin'
+[30.977s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset/lib/pkgconfig/aias_lab_skillset.pc'
+[30.978s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset/lib/python3.10/site-packages'
+[30.978s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset/bin'
+[30.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.ps1'
+[30.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.dsv'
+[30.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.sh'
+[30.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.bash'
+[30.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.zsh'
+[30.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/aias_lab_skillset/share/colcon-core/packages/aias_lab_skillset)
+[31.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aias_lab_skillset)
+[31.039s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset' for CMake module files
+[31.039s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset' for CMake config files
+[31.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('aias_lab_skillset', 'cmake_prefix_path')
+[31.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/hook/cmake_prefix_path.ps1'
+[31.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/hook/cmake_prefix_path.dsv'
+[31.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/hook/cmake_prefix_path.sh'
+[31.044s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset/lib'
+[31.044s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset/bin'
+[31.044s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset/lib/pkgconfig/aias_lab_skillset.pc'
+[31.045s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset/lib/python3.10/site-packages'
+[31.045s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/ros2_ws/install/aias_lab_skillset/bin'
+[31.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.ps1'
+[31.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.dsv'
+[31.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.sh'
+[31.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.bash'
+[31.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/ros2_ws/install/aias_lab_skillset/share/aias_lab_skillset/package.zsh'
+[31.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/ros2_ws/install/aias_lab_skillset/share/colcon-core/packages/aias_lab_skillset)
+[31.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.050s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.050s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.050s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.068s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.068s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.068s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.100s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.101s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/ros2_ws/install/local_setup.ps1'
+[31.102s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/etdisc/ros2_ws/install/_local_setup_util_ps1.py'
+[31.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/ros2_ws/install/setup.ps1'
+[31.105s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/ros2_ws/install/local_setup.sh'
+[31.106s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/etdisc/ros2_ws/install/_local_setup_util_sh.py'
+[31.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/ros2_ws/install/setup.sh'
+[31.111s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/ros2_ws/install/local_setup.bash'
+[31.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/ros2_ws/install/setup.bash'
+[31.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/ros2_ws/install/local_setup.zsh'
+[31.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/ros2_ws/install/setup.zsh'

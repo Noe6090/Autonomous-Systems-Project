@@ -1,0 +1,22 @@
+[0.052s] Invoking command in '/home/etdisc/ros2_ws/build/visual_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/visual_detection -- -j4 -l4
+[0.232s] [100%] Built target visual_detection_node
+[0.272s] Invoked command in '/home/etdisc/ros2_ws/build/visual_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/visual_detection -- -j4 -l4
+[0.407s] Invoking command in '/home/etdisc/ros2_ws/build/visual_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/visual_detection
+[0.435s] -- Install configuration: ""
+[0.435s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/lib/visual_detection/visual_detection_node
+[0.435s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/ament_index/resource_index/package_run_dependencies/visual_detection
+[0.435s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/ament_index/resource_index/parent_prefix_path/visual_detection
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/ament_prefix_path.sh
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/ament_prefix_path.dsv
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/path.sh
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/path.dsv
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.bash
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.sh
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.zsh
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.dsv
+[0.439s] -- Installing: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.dsv
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/ament_index/resource_index/packages/visual_detection
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/cmake/visual_detectionConfig.cmake
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/cmake/visual_detectionConfig-version.cmake
+[0.439s] -- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.xml
+[0.446s] Invoked command in '/home/etdisc/ros2_ws/build/visual_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/visual_detection

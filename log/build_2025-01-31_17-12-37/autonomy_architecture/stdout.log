@@ -1,0 +1,22 @@
+[100%] Built target odom_to_pose
+-- Install configuration: ""
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/lib/autonomy_architecture/odom_to_pose
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture//launch
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture//launch/__pycache__
+-- Installing: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture//launch/__pycache__/autonomy_architecture.launch.cpython-310.pyc
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture//launch/autonomy_architecture.launch.py
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/ament_index/resource_index/package_run_dependencies/autonomy_architecture
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/ament_index/resource_index/parent_prefix_path/autonomy_architecture
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/environment/ament_prefix_path.sh
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/environment/path.sh
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/environment/path.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/local_setup.bash
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/local_setup.sh
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/local_setup.zsh
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/local_setup.dsv
+-- Installing: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/ament_index/resource_index/packages/autonomy_architecture
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/cmake/autonomy_architectureConfig.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/cmake/autonomy_architectureConfig-version.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/install/autonomy_architecture/share/autonomy_architecture/package.xml

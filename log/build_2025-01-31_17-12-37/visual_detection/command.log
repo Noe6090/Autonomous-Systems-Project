@@ -1,0 +1,4 @@
+Invoking command in '/home/etdisc/ros2_ws/build/visual_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/visual_detection -- -j4 -l4
+Invoked command in '/home/etdisc/ros2_ws/build/visual_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/etdisc/ros2_ws/build/visual_detection -- -j4 -l4
+Invoking command in '/home/etdisc/ros2_ws/build/visual_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/visual_detection
+Invoked command in '/home/etdisc/ros2_ws/build/visual_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/etdisc/ros2_ws/build/visual_detection

@@ -1,0 +1,18 @@
+[100%] Built target visual_detection_node
+-- Install configuration: ""
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/lib/visual_detection/visual_detection_node
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/ament_index/resource_index/package_run_dependencies/visual_detection
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/ament_index/resource_index/parent_prefix_path/visual_detection
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/ament_prefix_path.sh
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/path.sh
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/path.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.bash
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.sh
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.zsh
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.dsv
+-- Installing: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.dsv
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/ament_index/resource_index/packages/visual_detection
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/cmake/visual_detectionConfig.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/cmake/visual_detectionConfig-version.cmake
+-- Up-to-date: /home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.xml
