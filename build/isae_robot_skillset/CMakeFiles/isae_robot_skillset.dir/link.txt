@@ -1,0 +1,2 @@
+/usr/bin/ar qc libisae_robot_skillset.a CMakeFiles/isae_robot_skillset.dir/src/Resource.cpp.o CMakeFiles/isae_robot_skillset.dir/src/Node.cpp.o CMakeFiles/isae_robot_skillset.dir/src/NodeDebug.cpp.o CMakeFiles/isae_robot_skillset.dir/src/Data.cpp.o CMakeFiles/isae_robot_skillset.dir/src/Event.cpp.o CMakeFiles/isae_robot_skillset.dir/src/Skill.cpp.o
+/usr/bin/ranlib libisae_robot_skillset.a

@@ -1,0 +1,10 @@
+/home/etdisc/ros2_ws/build/control_pkg/CMakeFiles/uninstall.dir
+/home/etdisc/ros2_ws/build/control_pkg/CMakeFiles/control_pkg_uninstall.dir
+/home/etdisc/ros2_ws/build/control_pkg/CMakeFiles/control_node.dir
+/home/etdisc/ros2_ws/build/control_pkg/CMakeFiles/test.dir
+/home/etdisc/ros2_ws/build/control_pkg/CMakeFiles/edit_cache.dir
+/home/etdisc/ros2_ws/build/control_pkg/CMakeFiles/rebuild_cache.dir
+/home/etdisc/ros2_ws/build/control_pkg/CMakeFiles/list_install_components.dir
+/home/etdisc/ros2_ws/build/control_pkg/CMakeFiles/install.dir
+/home/etdisc/ros2_ws/build/control_pkg/CMakeFiles/install/local.dir
+/home/etdisc/ros2_ws/build/control_pkg/CMakeFiles/install/strip.dir

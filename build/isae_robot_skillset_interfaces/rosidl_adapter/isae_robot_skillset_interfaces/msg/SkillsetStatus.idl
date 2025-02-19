@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isae_robot_skillset_interfaces/msg/SkillsetStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "isae_robot_skillset_interfaces/msg/ResourceState.idl"
+#include "isae_robot_skillset_interfaces/msg/SkillDetectTargetStatus.idl"
+#include "isae_robot_skillset_interfaces/msg/SkillMoveToStatus.idl"
+#include "isae_robot_skillset_interfaces/msg/SkillTakePictureStatus.idl"
+#include "isae_robot_skillset_interfaces/msg/SkillTrackTargetStatus.idl"
+
+module isae_robot_skillset_interfaces {
+  module msg {
+    struct SkillsetStatus {
+      builtin_interfaces::msg::Time stamp;
+
+      sequence<isae_robot_skillset_interfaces::msg::ResourceState> resources;
+
+      isae_robot_skillset_interfaces::msg::SkillDetectTargetStatus skill_detect_target;
+
+      isae_robot_skillset_interfaces::msg::SkillMoveToStatus skill_move_to;
+
+      isae_robot_skillset_interfaces::msg::SkillTakePictureStatus skill_take_picture;
+
+      isae_robot_skillset_interfaces::msg::SkillTrackTargetStatus skill_track_target;
+
+      string info;
+    };
+  };
+};

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaias_lab_skillset.a CMakeFiles/aias_lab_skillset.dir/src/Node.cpp.o
+/usr/bin/ranlib libaias_lab_skillset.a

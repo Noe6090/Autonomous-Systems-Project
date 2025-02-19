@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isae_robot_skillset_interfaces/msg/SkillTakePictureResponse.msg
+// generated code does not contain a copyright notice
+
+
+module isae_robot_skillset_interfaces {
+  module msg {
+    module SkillTakePictureResponse_Constants {
+      const uint8 SUCCESS = 0;
+      const uint8 ALREADY_RUNNING = 1;
+      const uint8 PRECONDITION_FAILURE = 2;
+      const uint8 VALIDATE_FAILURE = 3;
+      const uint8 START_FAILURE = 4;
+      const uint8 INVARIANT_FAILURE = 5;
+      const uint8 INTERRUPT = 6;
+      const uint8 FAILURE = 7;
+    };
+    struct SkillTakePictureResponse {
+      string id;
+
+      @verbatim (language="comment", text=
+        "cf. constant")
+      uint8 result;
+
+      @verbatim (language="comment", text=
+        "Preconditions" "\n"
+        "Terminate" "\n"
+        "terminate mode or precondition/invariant failure")
+      string name;
+
+      @verbatim (language="comment", text=
+        "if effect succeed or true if none")
+      boolean effect;
+
+      @verbatim (language="comment", text=
+        "if the postcondition is true (or no postcondition)")
+      boolean postcondition;
+    };
+  };
+};

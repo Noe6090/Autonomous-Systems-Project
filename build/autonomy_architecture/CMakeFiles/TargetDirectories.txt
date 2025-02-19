@@ -1,0 +1,10 @@
+/home/etdisc/ros2_ws/build/autonomy_architecture/CMakeFiles/uninstall.dir
+/home/etdisc/ros2_ws/build/autonomy_architecture/CMakeFiles/autonomy_architecture_uninstall.dir
+/home/etdisc/ros2_ws/build/autonomy_architecture/CMakeFiles/odom_to_pose.dir
+/home/etdisc/ros2_ws/build/autonomy_architecture/CMakeFiles/test.dir
+/home/etdisc/ros2_ws/build/autonomy_architecture/CMakeFiles/edit_cache.dir
+/home/etdisc/ros2_ws/build/autonomy_architecture/CMakeFiles/rebuild_cache.dir
+/home/etdisc/ros2_ws/build/autonomy_architecture/CMakeFiles/list_install_components.dir
+/home/etdisc/ros2_ws/build/autonomy_architecture/CMakeFiles/install.dir
+/home/etdisc/ros2_ws/build/autonomy_architecture/CMakeFiles/install/local.dir
+/home/etdisc/ros2_ws/build/autonomy_architecture/CMakeFiles/install/strip.dir

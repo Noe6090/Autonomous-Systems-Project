@@ -1,0 +1,32 @@
+{
+  "package_name": "isae_robot_skillset_interfaces",
+  "non_idl_tuples": [
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/DataRequest.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/EventRequest.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/EventResponse.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillsetStatus.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/ResourceState.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillInterrupt.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/DataPose.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/DataPoseResponse.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillDetectTargetInput.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillDetectTargetOutput.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillDetectTargetRequest.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillDetectTargetResponse.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillDetectTargetStatus.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillMoveToInput.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillMoveToRequest.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillMoveToResponse.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillMoveToProgress.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillMoveToStatus.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillTakePictureInput.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillTakePictureRequest.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillTakePictureResponse.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillTakePictureStatus.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillTrackTargetInput.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillTrackTargetRequest.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillTrackTargetResponse.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillTrackTargetProgress.msg",
+    "/home/etdisc/ros2_ws/src/autonomy_architecture/isae_robot_skillset_interfaces:msg/SkillTrackTargetStatus.msg"
+  ]
+}

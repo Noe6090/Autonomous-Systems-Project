@@ -1,0 +1,4 @@
+source;share/visual_detection/local_setup.bash
+source;share/visual_detection/local_setup.dsv
+source;share/visual_detection/local_setup.sh
+source;share/visual_detection/local_setup.zsh

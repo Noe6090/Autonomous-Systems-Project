@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isae_robot_skillset_interfaces/msg/EventResponse.msg
+// generated code does not contain a copyright notice
+
+
+module isae_robot_skillset_interfaces {
+  module msg {
+    module EventResponse_Constants {
+      const uint8 SUCCESS = 0;
+      const uint8 UNDEFINED = 1;
+      const uint8 GUARD_FAILURE = 2;
+      const uint8 EFFECT_FAILURE = 3;
+    };
+    @verbatim (language="comment", text=
+      "Response Constants")
+    struct EventResponse {
+      string id;
+
+      uint8 response;
+    };
+  };
+};

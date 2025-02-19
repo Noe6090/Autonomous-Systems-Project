@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isae_robot_skillset_interfaces/msg/SkillMoveToInput.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+
+module isae_robot_skillset_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Generated from isae_robot.rl:56:10")
+    struct SkillMoveToInput {
+      geometry_msgs::msg::Pose2D target;
+    };
+  };
+};

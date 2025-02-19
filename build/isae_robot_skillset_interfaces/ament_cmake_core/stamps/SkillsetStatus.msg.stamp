@@ -1,0 +1,7 @@
+builtin_interfaces/Time stamp
+ResourceState[] resources
+SkillDetectTargetStatus skill_detect_target
+SkillMoveToStatus skill_move_to
+SkillTakePictureStatus skill_take_picture
+SkillTrackTargetStatus skill_track_target
+string info

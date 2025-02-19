@@ -1,0 +1,10 @@
+/home/etdisc/ros2_ws/build/visual_detection/CMakeFiles/uninstall.dir
+/home/etdisc/ros2_ws/build/visual_detection/CMakeFiles/visual_detection_uninstall.dir
+/home/etdisc/ros2_ws/build/visual_detection/CMakeFiles/visual_detection_node.dir
+/home/etdisc/ros2_ws/build/visual_detection/CMakeFiles/test.dir
+/home/etdisc/ros2_ws/build/visual_detection/CMakeFiles/edit_cache.dir
+/home/etdisc/ros2_ws/build/visual_detection/CMakeFiles/rebuild_cache.dir
+/home/etdisc/ros2_ws/build/visual_detection/CMakeFiles/list_install_components.dir
+/home/etdisc/ros2_ws/build/visual_detection/CMakeFiles/install.dir
+/home/etdisc/ros2_ws/build/visual_detection/CMakeFiles/install/local.dir
+/home/etdisc/ros2_ws/build/visual_detection/CMakeFiles/install/strip.dir

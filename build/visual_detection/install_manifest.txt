@@ -1,0 +1,16 @@
+/home/etdisc/ros2_ws/install/visual_detection/lib/visual_detection/visual_detection_node
+/home/etdisc/ros2_ws/install/visual_detection/share/ament_index/resource_index/package_run_dependencies/visual_detection
+/home/etdisc/ros2_ws/install/visual_detection/share/ament_index/resource_index/parent_prefix_path/visual_detection
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/ament_prefix_path.sh
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/ament_prefix_path.dsv
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/path.sh
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/environment/path.dsv
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.bash
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.sh
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.zsh
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/local_setup.dsv
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.dsv
+/home/etdisc/ros2_ws/install/visual_detection/share/ament_index/resource_index/packages/visual_detection
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/cmake/visual_detectionConfig.cmake
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/cmake/visual_detectionConfig-version.cmake
+/home/etdisc/ros2_ws/install/visual_detection/share/visual_detection/package.xml
