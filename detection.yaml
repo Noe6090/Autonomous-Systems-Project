@@ -1,0 +1,18 @@
+/visual_detection:
+  ros__parameters:
+    blue: 180
+    green: 100
+    image_transport: compressed
+    mage:
+      mode: unchanged
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    red: 50
+    threshold: 50
+    use_sim_time: false
+
