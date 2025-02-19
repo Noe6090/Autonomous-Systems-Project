@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isae_robot_skillset_interfaces/msg/DataRequest.msg
+// generated code does not contain a copyright notice
+
+
+module isae_robot_skillset_interfaces {
+  module msg {
+    struct DataRequest {
+      string id;
+    };
+  };
+};

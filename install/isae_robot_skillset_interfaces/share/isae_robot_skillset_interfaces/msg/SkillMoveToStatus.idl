@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isae_robot_skillset_interfaces/msg/SkillMoveToStatus.msg
+// generated code does not contain a copyright notice
+
+#include "isae_robot_skillset_interfaces/msg/SkillMoveToInput.idl"
+
+module isae_robot_skillset_interfaces {
+  module msg {
+    module SkillMoveToStatus_Constants {
+      const uint8 READY = 0;
+      const uint8 RUNNING = 1;
+      const uint8 INTERRUPTING = 2;
+    };
+    struct SkillMoveToStatus {
+      string name;
+
+      string id;
+
+      uint8 state;
+
+      isae_robot_skillset_interfaces::msg::SkillMoveToInput input;
+    };
+  };
+};

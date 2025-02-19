@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isae_robot_skillset_interfaces/msg/DataPoseResponse.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Pose2D.idl"
+
+module isae_robot_skillset_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Generated from isae_robot.rl:11:9")
+    struct DataPoseResponse {
+      string id;
+
+      builtin_interfaces::msg::Time stamp;
+
+      boolean has_data;
+
+      geometry_msgs::msg::Pose2D value;
+    };
+  };
+};
